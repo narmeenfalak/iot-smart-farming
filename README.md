@@ -1,40 +1,46 @@
 # IoT Smart Farming Project
 
 ## Conceptual Design
-![image](https://user-images.githubusercontent.com/70487222/161078437-f1a163ce-b04c-4612-bbb7-f2da71942334.png)
-
+![Screenshot 2022-03-31 212653](https://user-images.githubusercontent.com/70487222/161079274-fda5eecf-d26b-4a70-ba9b-527d57425ca9.jpg)
+    
 
 ## Features
-- Real time measurement:
-  - Temperature
-  - Humidity
-  - Soil moisture
+- Real time measurement:  
+  - Temperature of the surroundings   
+  - Humidity of the surroundings  
+  - Soil Moisture of the Plant  
 - Data logging:
-  - Maximum 1000 samples
-  - sample interval – every 60 mins
-- Real time display:
-  - Temperature
-  - Humidity
-  - Moisture
-  - Water pump on/off status
+  - Maximum 1000 samples   
+  - Default sample interval: every 60 mins   
+  - Special Conditions (e.g: water pump is on): every 10 seconds until condition is normal  
+- Real time display:  
+  - Temperature of the surroundings   
+  - Humidity of the surroundings    
+  - Soil Moisture of the Plant   
+
+- Water Pump On/Off Status
 - Water pump is controlled by a manual control and an automatic control (depending on soil moisture)
 - Send alert notification on mobile application if temperature, humidity or soil moisture is not in optimum limits
-- Send alert notification when water pump is turned on and when water pump is turned off.
+- Send alert notification when water pump is turned on 
+- Send alert notification when water pump is turned off.
 
 ## System Components
 - The MCU: ESP8266
-- The DC Pump
-- Humidity sensor 
-- Temperature sensor
-- Moisture sensor
-- LCD Display
+- Mini Water Pump DC 3-6V 3W
+- Humidity sensor DHT11 
+- Temperature sensor DHT11
+- Soil Moisture sensor
+- LCD Display (16*2)
+- Water pipe (inlet to pump; 5mm)
+- Water pipe (outlet from pump; outer dia 7.5mm, inner dia 4.5 mm )
 
 ## Software Flowchart
-![Untitled (1)](https://user-images.githubusercontent.com/70487222/153769987-5e88e035-2681-4174-aa15-c29b2d415921.jpg)
+![Screenshot 2022-03-31 213746](https://user-images.githubusercontent.com/70487222/161081478-fc8c2501-5bc5-4514-a7b2-9ba8ab83057c.jpg)
+
 
 ## Software Features
-- Display humidity, temperature, soil moisture and pump status on mobile app
-- Enable user to control pump through mobile app
+- Display humidity, temperature, soil moisture and water pump status on mobile app
+- Enable user to control pump through mobile app (manual control)
 - If temperature > upperLimitor || temp < lowerLimit send notification
 - If humidity > upperLimit || humidity < lowerLimit: send notification
 - If soil moisture < lowerLimit: turn on pump
@@ -58,4 +64,20 @@ Input: desired moisture value
 Input: current moisture value, maximum/minimum allowed moisture values   
 **Function: UpdateDisplay**   
 Input: temperature, humidity, soil moisture and water pump status   
+
+## Task Distribution
+**Narmeen**
+- Humidity Sensor
+- Temperature Sensor
+- LCD Display
+
+**Hafsa**
+- Soil Moisture Sensor
+- Water Pump and its control
+
+## Project Timeline
+![Screenshot 2022-03-31 214126](https://user-images.githubusercontent.com/70487222/161082366-5172f5cf-57a7-482e-a0d4-cc3428c5dcf1.jpg)
+
+
+
 
