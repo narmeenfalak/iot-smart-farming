@@ -1,7 +1,8 @@
-# iot-smart-farming
+# IoT Smart Farming Project
 
 ## Conceptual Design
-![Screenshot 2022-02-14 015408](https://user-images.githubusercontent.com/70487222/153770178-a9ecc946-c31f-47d6-984a-a3d8cbd99e1f.png)
+![image](https://user-images.githubusercontent.com/70487222/161078437-f1a163ce-b04c-4612-bbb7-f2da71942334.png)
+
 
 ## Features
 - Real time measurement:
