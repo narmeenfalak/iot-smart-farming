@@ -1,5 +1,30 @@
 # IoT Smart Farming Project
 
+## Project Progress Report
+
+### Week 1
+- Requirements and Design Finalization
+- Project Proposal Presentation
+
+### Week 2
+- Hardware Purchase
+    - Narmeen: Strawberry plant and LCD Display (Recieved)
+    - Hafsa: Soil Moisture Sensor and Water Pump (Received)
+
+### Week 3
+- Strawberry Plant Research and Observation 
+- Hardware connection for soil moisture sensor, humidity and temperature sensor (successful)
+
+### Week 4
+- Unit testing of moisture sensor and humidity and temperature sensor (successful)
+- Water pump connection (failed)
+
+### Week 5
+- Acquired relay board to solve water pump connection issue
+- Hinderance: Strawberry plant died 
+- Considering switching to a different plant
+
+
 ## Conceptual Design
 ![Screenshot 2022-03-31 212653](https://user-images.githubusercontent.com/70487222/161079274-fda5eecf-d26b-4a70-ba9b-527d57425ca9.jpg)
     
