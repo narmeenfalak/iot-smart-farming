@@ -30,6 +30,8 @@
 -  Mapping for Soil moisture sensor with the Water pump is done
 - Some modifications are needed in the code accordingly for the plant
 
+### Week 7 
+
 
 ## Conceptual Design
 ![Screenshot 2022-03-31 212653](https://user-images.githubusercontent.com/70487222/161079274-fda5eecf-d26b-4a70-ba9b-527d57425ca9.jpg)
