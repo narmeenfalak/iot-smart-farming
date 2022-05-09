@@ -33,6 +33,7 @@
 ### Week 7 
 - Discovered overshoot problem in soil moisture sensor
 - Tried different methods to work on the solution
+- Implemented manual water pump control
 
 ### Week 8 (Final week)
 - Solved overshoot issue by adding intervals to the pump control
